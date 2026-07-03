@@ -4,7 +4,7 @@ name: Deploy Streamlit Frontend to EC2
 
 on:
   workflow_run:
-    workflows: ["Deploy Backend to EC2"]
+    workflows: ["Backend to EC2"]
     types:
       - completed
 
